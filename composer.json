@@ -1,0 +1,26 @@
+{
+  "name": "muvo/yii2-sms",
+  "version": "0.0.1",
+  "type": "yii2-extension",
+  "description": "SMS components set for Yii2",
+  "keywords": [
+    "yii2",
+    "sms",
+    "component"
+  ],
+  "authors": [
+    {
+      "name": "Vladislav Muschinskikh",
+      "email": "i@unixoid.su"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "linslin/yii2-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "muvo\\yii\\sms\\": ""
+    }
+  }
+}
